@@ -1,0 +1,44 @@
+.jumbotron {
+ background-image: url(../../assets/images/store.jpg);
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 0;
+
+}
+.space
+{
+    height: 100px;
+}
+
+ .logo {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 125px;
+ 
+ }
+ nav{
+     margin-top: 0;
+     padding: 0;
+     background-color: rgb(238, 204, 190);
+     color: white;
+     position: static;
+     
+ }
+ .navbar-brand {
+    position: relative;
+    left: 47%;
+    transform: translatex(-50%);
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    margin-bottom: 4px;
+    font-size: 27px;
+    color: rgb(82, 80, 80);
+   
+    white-space: nowrap;
+}

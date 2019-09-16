@@ -1,0 +1,6 @@
+<input [(ngModel)]="searchTerm" class="form-control" placeholder="Let me help you find what you're looking for!"> 
+ <div class = "row">
+<div *ngFor="let goods of (allGoods | search: searchTerm)"   style="width: 18rem;">
+    <app-goods-card [goods]=goods></app-goods-card>
+</div> 
+

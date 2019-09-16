@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="card d-flex">
+        <img class="card-img-top" [src]="goods.imageUrl" alt="Card image cap">
+        <div class="card-body flex-fill">
+            <h3 class="card-title">{{ goods.name }}</h3>
+            <span class="float-left"> {{ goods.price | currency }}</span>
+            <div class="row">
+                <button type="button" class="btn btn-success" [class.disabled]="qtyToPurchase > goods.quantity"
+                    (click)="onAddToCart(goods)">{{ buttonText }}</button>
+            </div>
+        </div>
+    </div>
+</div>
